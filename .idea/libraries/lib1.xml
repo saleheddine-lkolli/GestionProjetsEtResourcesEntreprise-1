@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../flexganttfx-11.12.5-bin.zip!/lib" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../flexganttfx-11.12.5-bin.zip!/lib" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../flexganttfx-11.12.5-bin.zip!/lib" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="jar://$PROJECT_DIR$/../../flexganttfx-11.12.5-bin.zip!/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../flexganttfx-11.12.5-bin.zip!/lib" />
+    </SOURCES>
+    <jarDirectory url="jar://$PROJECT_DIR$/../../flexganttfx-11.12.5-bin.zip!/lib" recursive="false" />
+    <jarDirectory url="jar://$PROJECT_DIR$/../../flexganttfx-11.12.5-bin.zip!/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

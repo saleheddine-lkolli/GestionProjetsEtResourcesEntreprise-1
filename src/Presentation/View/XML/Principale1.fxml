@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.1302170283806344" layoutY="40.0" prefHeight="680.0" prefWidth="1200.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="680.0" prefWidth="160.0">
+               <children>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="680.0" prefWidth="160.0">
+                     <children>
+                        <Button fx:id="bMenu" alignment="CENTER" ellipsisString="." maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Menu" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <effect>
+                              <Blend />
+                           </effect>
+                           <font>
+                              <Font name="menu" size="13" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Projets">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Gestion des Utilisateurs">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Mes Informations">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Exporter/Importer">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Missions">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="680.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+      <Pane prefHeight="40.0" prefWidth="1200.0" />
+   </children>
+</Pane>

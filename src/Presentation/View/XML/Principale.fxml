@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.Controllers.Principale">
+   <children>
+      <BorderPane layoutX="8.0" layoutY="-6.0" prefHeight="0.0" prefWidth="1200.0" />
+      <Pane prefHeight="40.0" prefWidth="1200.0" AnchorPane.bottomAnchor="680.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="bConnexion" layoutX="1049.0" minWidth="0.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Conexion" />
+         </children></Pane>
+      <Pane fx:id="pButtoms" layoutY="40.0">
+         
+         <children>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="680.0" prefWidth="160.0">
+               <children>
+                  <Button fx:id="bMenu" alignment="CENTER" ellipsisString="." maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Menu" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+                      <font>
+                          <Font name="menu" size="13" />
+                      </font>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <effect>
+                        <Blend />
+                     </effect>
+
+                  </Button>
+                  <Button fx:id="bGesionDesProjests" mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Projets">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <effect>
+                        <Blend />
+                     </effect></Button>
+                  <Button fx:id="bGestionDesUtilisateurs" mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Gestion des Utilisateurs">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <effect>
+                        <Blend />
+                     </effect></Button>
+                  <Button fx:id="bGestionMesInfos" mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Mes Informations">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <effect>
+                        <Blend />
+                     </effect></Button>
+                  <Button fx:id="bImExporter" mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Exporter/Importer">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <effect>
+                        <Blend />
+                     </effect></Button>
+                  <Button fx:id="bMissions" mnemonicParsing="false" prefHeight="100.0" prefWidth="160.0" text="Missions">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Pane fx:id="pFonctions" layoutX="160.0" layoutY="40.0" prefHeight="680.0" prefWidth="1040.0">
+         <children>
+
+         </children>
+        </Pane>
+   </children>
+</AnchorPane>

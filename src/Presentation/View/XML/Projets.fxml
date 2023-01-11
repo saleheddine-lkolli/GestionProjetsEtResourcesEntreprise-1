@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.Controllers.Projets">
+   <children>
+      <Pane prefHeight="432.0" prefWidth="1200.0" >
+
+            <fx:include source="Gantt.fxml">
+            </fx:include>
+
+      </Pane>
+   </children>
+</AnchorPane>
